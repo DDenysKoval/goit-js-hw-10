@@ -1,0 +1,22 @@
+.sl-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sl-caption {
+  text-align: center;
+}
+
+.sl-prev,
+.sl-next {
+  color: #ffffff !important;
+}
+
+
+.sl-close {
+  color: #ffffff !important;
+}
+
+.sl-counter {
+  color: #ffffff !important;
+}
+

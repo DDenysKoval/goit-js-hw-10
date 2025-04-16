@@ -1,0 +1,116 @@
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+section {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.gallery {
+  padding: 24px 156px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0;
+}
+
+.gallery-item {
+  transition: transform 250ms ease-in-out;
+}
+
+.gallery-item:hover {
+  transform: scale(105%);
+}
+
+.feedback-form {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 8px;
+  margin-top: 8px;
+}
+
+input:hover {
+  border: 1px solid #000;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #808080;
+}
+
+textarea {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 80px;
+  padding-left: 8px;
+  margin-top: 8px;
+  padding-top: 8px;
+  resize: none;
+}
+
+textarea:hover {
+  border: 1px solid #000;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid #808080;
+}
+
+button {
+  border-radius: 8px;
+  width: 95px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+button:hover {
+  background: #6c8cff;
+}
