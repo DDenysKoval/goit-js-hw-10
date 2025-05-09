@@ -42,10 +42,8 @@ const options = {
 flatpickr("#datetime-picker", options);
 
 startBtn.addEventListener("click", () => {
-  if (userSelectedDate > new Date()) {
-    startBtn.disabled = true;
-    input.disabled = true;
-  }
+  startBtn.disabled = true;
+  input.disabled = true;
   intervalId = setInterval(counter, 1000);
   startBtn.classList.add("is-disabled");
   startBtn.classList.remove("is-active");
@@ -56,10 +54,12 @@ startBtn.addEventListener("click", () => {
 function counter() {
   const currentTime = new Date();
   const difference = userSelectedDate - currentTime;
-  const timeStr = timeToStr(difference);
+  timeToStr(difference);
+  
   if (difference < 1000) {
     clearInterval(intervalId);
   }
+
 }
 
 function convertMs(ms) {
@@ -87,7 +87,4 @@ function timeToStr(ms) {
   hoursEl.textContent = hours.toString().padStart(2, "0");
   minutesEl.textContent = minutes.toString().padStart(2, "0");
   secondsEl.textContent = seconds.toString().padStart(2, "0");
-  if (days.length === 3) {
-    daysEl.textContent = days.toString().padStart(3, "0");
-  }
 }
