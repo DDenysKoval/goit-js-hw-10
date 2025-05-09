@@ -262,3 +262,7 @@ fieldset:focus {
 .btn-submit:hover {
   background: #6c8cff;
 }
+
+.flatpickr-day {
+  padding: 0;
+}
