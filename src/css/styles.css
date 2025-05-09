@@ -145,7 +145,6 @@ section {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   color: #666;
@@ -263,6 +262,3 @@ fieldset:focus {
   background: #6c8cff;
 }
 
-.flatpickr-day {
-  padding: 0;
-}
