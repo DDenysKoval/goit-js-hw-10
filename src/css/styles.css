@@ -120,12 +120,12 @@ section {
 
 .flatpickr-months {
   font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    color: #333 !important;
-    margin-bottom: 24px;
-    padding: 16px 16px 0;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #333 !important;
+  margin-bottom: 24px;
+  padding: 16px 16px 0;
 }
 
 .flatpickr-weekdays {
